@@ -1,0 +1,31 @@
+{ 
+   "name": "magic-bot", 
+   "version": "1.0.0", 
+   "description": "um bot", 
+   "main": "node.js", 
+   "scripts": { 
+     "start": "node.js", 
+     "dev": "nodemon ." 
+   }, 
+   "author": "PaneladaDe87", 
+   "license": "MIT-license", 
+   "dependencies": { 
+     "ascii-table": "^0.0.9", 
+     "axios": "^0.21.3", 
+     "discord.js": "^12.5.1", 
+     "dotenv": "^8.2.0", 
+     "figlet": "^1.5.0", 
+     "moment": "^2.29.1", 
+     "ms": "^2.1.3", 
+     "node-fetch": "^3.0.0", 
+     "weather-js": "^2.0.0" 
+   }, 
+   "devDependencies": { 
+     "eslint": "^7.20.0", 
+     "eslint-config-standard": "^16.0.2", 
+     "eslint-plugin-import": "^2.22.1", 
+     "eslint-plugin-node": "^11.1.0", 
+     "eslint-plugin-promise": "^4.2.1", 
+     "nodemon": "^2.0.7" 
+   } 
+ }
